@@ -33,7 +33,7 @@ window {
     border-radius: 11px;
     border: 1px solid;
     border-color: #000000;
-    background-color: rgba(38,43,52,85%);
+    background-color: rgba(35,35,35,90%);
     padding: 0px;
     width: 30%;
 }
@@ -47,7 +47,7 @@ element {
     padding: 10px 10px;
     height: 50px;
     border-radius: 5px;
-    children: [ element-text, element-icon ];
+    children: [ element-icon, element-text ];
 }
 
 element-text {
